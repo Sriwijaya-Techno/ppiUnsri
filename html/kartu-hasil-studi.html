@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/" data-template="vertical-menu-template">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Kartu Hasil Studi | PPI UNSRI</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/unsri.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+    <script src="../assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Menu -->
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+          <div class="app-brand demo">
+            <a href="index.html" class="app-brand-link">
+              <span class="app-brand-logo demo">
+                <img src="../assets/img/unsri.png" alt="" width="55" />
+              </span>
+              <span class="app-brand-text menu-text fw-bolder ms-2 fs-3">PPI UNSRI</span>
+            </a>
+
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+              <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+          </div>
+
+          <div class="menu-inner-shadow"></div>
+
+          <ul class="menu-inner py-1">
+            <!-- Dashboard -->
+            <li class="menu-item">
+              <a href="index.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="Beranda">Beranda</div>
+              </a>
+            </li>
+            <li class="menu-item open">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-layout"></i>
+                <div data-i18n="Klaim Pencapaian">Klaim Pencapaian</div>
+              </a>
+
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="data-pribadi-formal.html" class="menu-link">
+                    <div data-i18n="Data Pribadi">Data Pribadi</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="kode-etik-insinyur-referensi.html" class="menu-link">
+                    <div data-i18n="Kode Etik Insinyur">Kode Etik Insinyur</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="kualifikasi-profesional.html" class="menu-link">
+                    <div data-i18n="Kualifikasi Profesional">Kualifikasi Profesional</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="pengalaman-mengajar.html" class="menu-link">
+                    <div data-i18n="Pengalaman Mengajar">Pengalaman Mengajar</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="publikasi-karyatulis.html" class="menu-link">
+                    <div data-i18n="Publikasi">Publikasi</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="bahasa.html" class="menu-link">
+                    <div data-i18n="Bahasa">Bahasa</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="rekognisi-pencapaian.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Rekognisi Pencapaian">Rekognisi Pencapaian</div>
+              </a>
+            </li>
+            <li class="menu-item active">
+              <a href="kartu-hasil-studi.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-file"></i>
+                <div data-i18n="Kartu Hasil Studi">Kartu Hasil Studi</div>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="login.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-power-off"></i>
+                <div data-i18n="Logout">Logout</div>
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+          <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme mt-4" id="layout-navbar">
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <!-- Search -->
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  <label for="search"><i class="bx bx-search fs-4 lh-0"></i></label>
+                  <input type="text" class="form-control border-0 shadow-none" id="search" placeholder="Search..." aria-label="Search..." />
+                </div>
+              </div>
+              <!-- /Search -->
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- User -->
+                <li class="nav-item navbar-dropdown dropdown-user dropdown mt-2">
+                  <a class="d-flex nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                    <div class="avatar">
+                      <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                    </div>
+                    <div class="nav-item ms-2 mt-2">
+                      <p>Bambang Pamungkas</p>
+                    </div>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a class="dropdown-item" href="profil.html">
+                        <div class="d-flex">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar">
+                              <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <span class="fw-semibold d-block">Bambang Pamungkas</span>
+                            <small class="text-muted">bambang@unsri.ac.id</small>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="profil.html">
+                        <i class="bx bx-user me-2"></i>
+                        <span class="align-middle">Profil Saya</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="data-pribadi-formal.html">
+                        <i class="bx bx-layout me-2"></i>
+                        <span class="align-middle">Klaim Pencapaian</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="rekognisi-pencapaian.html">
+                        <span class="d-flex align-items-center align-middle">
+                          <i class="flex-shrink-0 bx bx-dock-top me-2"></i>
+                          <span class="flex-grow-1 align-middle">Rekognisi Pencapaian</span>
+                          <span class="flex-shrink-0 badge badge-center rounded-pill bg-primary w-px-20 h-px-20"><i class="bx bx-bell"></i></span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="kartu-hasil-studi.html">
+                        <span class="d-flex align-items-center align-middle">
+                          <i class="flex-shrink-0 bx bx-file me-2"></i>
+                          <span class="flex-grow-1 align-middle">Kartu Hasil Studi</span>
+                          <span class="flex-shrink-0 badge badge-center rounded-pill bg-primary w-px-20 h-px-20"><i class="bx bx-bell"></i></span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="login.html">
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">Log Out</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!--/ User -->
+              </ul>
+            </div>
+          </nav>
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <div class="row invoice-preview">
+                <!-- Invoice -->
+                <div class="col-12 mb-md-0 mb-4">
+                  <div class="card invoice-preview-card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between flex-xl-row flex-md-column flex-sm-row flex-column p-sm-3 p-0">
+                        <div class="mb-xl-0 mb-2">
+                          <div class="d-flex svg-illustration mb-3">
+                            <span class="app-brand-logo demo">
+                              <img src="../assets/img/unsri.png" alt="" width="50" />
+                            </span>
+                            <span class="app-brand-text menu-text fw-bolder m-1 fs-4">PPI UNSRI</span>
+                          </div>
+                          <p class="mb-1">Jl. Raya Palembang - Prabumulih Km. 32</p>
+                          <p class="mb-1">Indralaya, OI, Sumatera Selatan 30662</p>
+                          <p class="mb-0">0711-58069, ppi@unsri.ac.id</p>
+                        </div>
+                        <div class="mt-2">
+                          <h4>Kartu Hasil Studi</h4>
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td class="pe-3">Tanggal Terbit</td>
+                                <td class="fw-semibold">: 25/03/2023</td>
+                              </tr>
+                              <tr>
+                                <td class="pe-3">Kadaluarsa</td>
+                                <td class="fw-semibold">: 29/08/2028</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="mt-3">
+                            <a href="#" class="btn btn-primary me-2 text-white">Download</a>
+                            <button type="reset" class="btn btn-outline-secondary">Print</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="my-0" />
+                    <div class="card-body">
+                      <div class="row px-sm-3 pt-sm-3 p-0">
+                        <div class="col-xl-8 col-md-12 col-sm-7 col-12">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td class="pe-3">Nama</td>
+                                <td>: Bambang Pamungkas</td>
+                              </tr>
+                              <tr>
+                                <td class="pe-3">NIM</td>
+                                <td>: 09031281924160</td>
+                              </tr>
+                              <tr>
+                                <td class="pe-3">Program Studi</td>
+                                <td>: Profesi Insinyur</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="col-xl-4 col-md-12 col-sm-7 col-12">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td class="pe-5">Semester</td>
+                                <td>: 1 (TA. 2022/2023)</td>
+                              </tr>
+                              <tr>
+                                <td class="pe-5">Nama P.A.</td>
+                                <td>: Dedy Kurniawan, M.Sc.</td>
+                              </tr>
+                              <tr>
+                                <td class="pe-5">NIP P.A.</td>
+                                <td>: 199008022019031006</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-responsive m-3">
+                      <table class="table border-top m-0 text-center table-hover">
+                        <thead>
+                          <tr>
+                            <th class="text-start">Mata Kuliah</th>
+                            <th>Mutu</th>
+                            <th>Konversi</th>
+                            <th>SKS</th>
+                            <th class="text-nowrap">(SKS x Konversi)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-start"><strong>Kode Etik Profesi</strong></td>
+                            <td><span class="badge bg-label-danger me-1">F</span></td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                            <td>2</td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                          <tr>
+                            <td class="text-start"><strong>Profesionalisme Keinsinyuran</strong></td>
+                            <td><span class="badge bg-label-danger me-1">F</span></td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                            <td>2</td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                          <tr>
+                            <td class="text-start"><strong>Kesehatan dan Keselamatan Kerja dan Lingkungan</strong></td>
+                            <td><span class="badge bg-label-danger me-1">F</span></td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                            <td>2</td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                          <tr>
+                            <td class="text-start"><strong>Studi Kasus</strong></td>
+                            <td><span class="badge bg-label-danger me-1">F</span></td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                            <td>2</td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                          <tr>
+                            <td class="text-start"><strong>Seminar, Lokakarya dan/atau Diskusi</strong></td>
+                            <td><span class="badge bg-label-danger me-1">F</span></td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                            <td>2</td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                          <tr>
+                            <td class="text-start"><strong>Praktek Keinsinyuran</strong></td>
+                            <td><span class="badge bg-label-danger me-1">F</span></td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                            <td>2</td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                        </tbody>
+                        <tfoot class="table-border-bottom-0">
+                          <tr>
+                            <td></td>
+                            <td colspan="2"><strong>Total SKS</strong></td>
+                            <td class="text-nowrap">12 SKS</td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td colspan="2"><strong>Indeks Prestasi Kumulatif</strong></td>
+                            <td></td>
+                            <td><span class="badge bg-label-danger me-1">0</span></td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Content -->
+
+            <!-- Footer -->
+            <footer class="content-footer footer bg-footer-theme">
+              <div class="container-xxl d-flex flex-wrap justify-content-end py-2 flex-md-row flex-column">
+                <div class="mb-2 mb-md-0">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  , Developed by
+                  <a href="#" target="_blank" class="footer-link fw-bolder">Sriwijaya Techno</a>
+                </div>
+              </div>
+            </footer>
+            <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+
+      <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+      <div class="drag-target"></div>
+    </div>
+    <!-- / Layout wrapper -->
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../assets/vendor/js/menu.js"></script>
+    <!-- Main JS -->
+    <script src="../assets/js/main.js"></script>
+    <!-- Page JS -->
+    <script src="../assets/js/pages-account-settings-account.js"></script>
+  </body>
+</html>
