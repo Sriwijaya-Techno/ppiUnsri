@@ -36,14 +36,11 @@
               </span>
               <span class="app-brand-text menu-text fw-bolder ms-2 fs-3">PPI UNSRI</span>
             </a>
-
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
               <i class="bx bx-chevron-left bx-sm align-middle"></i>
             </a>
           </div>
-
           <div class="menu-inner-shadow"></div>
-
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item">
@@ -296,8 +293,38 @@
                             <input type="text" class="form-control" id="no-kta" name="no-kta" placeholder="No. KTA (6 Digit Terakhir)" value="924160" />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="badan-kejurusan" class="form-label">Badan Kejurusan</label>
-                            <input type="text" class="form-control" id="badan-kejurusan" name="badan-kejurusan" placeholder="Badan Kejurusan" value="Sistem Informasi" />
+                            <label class="form-label" for="badan-kejurusan">Badan Kejurusan</label>
+                            <select id="badan-kejurusan" class="select2 form-select">
+                              <option value="">Pilih Badan Kejurusan</option>
+                              <option value="teknik-arsitektur">Teknik Arsitektur</option>
+                              <option value="teknik-elektro">Teknik Elektro</option>
+                              <option value="teknik-fisika">Teknik Fisika</option>
+                              <option value="teknik-geodesi">Teknik Geodesi</option>
+                              <option value="kebumian-dan-energi">Kebumian dan Energi</option>
+                              <option value="teknik-kewilayahan-dan-perkotaan">Teknik Kewilayahan dan Perkotaan</option>
+                              <option value="teknik-industri">Teknik Industri</option>
+                              <option value="teknik-kimia">Teknik Kimia</option>
+                              <option value="teknik-mesin">Teknik Mesin</option>
+                              <option value="teknik-lingkungan">Teknik Lingkungan</option>
+                              <option value="teknik-perminyakan">Teknik Perminyakan</option>
+                              <option value="teknik-pertambangan">Teknik Pertambangan</option>
+                              <option value="teknik-sipil">Teknik Sipil</option>
+                              <option value="teknik-material">Teknik Material</option>
+                              <option value="kehutanan">Kehutanan</option>
+                              <option value="teknik-metalurgi">Teknik Metalurgi</option>
+                              <option value="pertanian">Pertanian</option>
+                              <option value="peternakan">Peternakan</option>
+                              <option value="industri-pertanian">Industri Pertanian</option>
+                              <option value="teknik-informatika" selected>Teknik Informatika</option>
+                              <option value="kedirgantaraan">Kedirgantaraan</option>
+                              <option value="kelautan">Kelautan</option>
+                              <option value="teknik-nuklir">Teknik Nuklir</option>
+                              <option value="teknik-perkapalan">Teknik Perkapalan</option>
+                              <option value="perikanan">Perikanan (Pertanian)</option>
+                              <option value="teknologi-pertanian">Teknologi Pertanian</option>
+                              <option value="transportasi">Transportasi</option>
+                              <option value="perkeretaapian">Perkeretaapian</option>
+                            </select>
                           </div>
                           <div class="mb-3 col-md-6">
                             <label for="email" class="form-label">Email</label>
