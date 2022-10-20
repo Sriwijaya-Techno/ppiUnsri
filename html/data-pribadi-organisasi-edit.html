@@ -67,15 +67,54 @@
                     <div data-i18n="Profil">Profil</div>
                   </a>
                 </li>
-                <li class="menu-item active">
-                  <a href="data-pribadi-formal.html" class="menu-link">
+                <li class="menu-item active open">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
                     <div data-i18n="Data Pribadi">Data Pribadi</div>
                   </a>
+                  <ul class="menu-sub ps-2">
+                    <li class="menu-item">
+                      <a href="data-pribadi-formal.html" class="menu-link">
+                        <div data-i18n="Pendidikan Formal">Pendidikan Formal</div>
+                      </a>
+                    </li>
+                    <li class="menu-item active">
+                      <a href="data-pribadi-organisasi.html" class="menu-link">
+                        <div data-i18n="Organisasi">Organisasi</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="data-pribadi-penghargaan.html" class="menu-link">
+                        <div data-i18n="Tanda Penghargaan">Tanda Penghargaan</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="data-pribadi-pelatihan.html" class="menu-link">
+                        <div data-i18n="Pelatihan">Pelatihan</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="data-pribadi-sertifikat.html" class="menu-link">
+                        <div data-i18n="Sertifikat">Sertifikat</div>
+                      </a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="menu-item">
-                  <a href="kode-etik-insinyur-referensi.html" class="menu-link">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
                     <div data-i18n="Kode Etik Insinyur">Kode Etik Insinyur</div>
                   </a>
+                  <ul class="menu-sub ps-2">
+                    <li class="menu-item">
+                      <a href="kode-etik-insinyur-referensi.html" class="menu-link">
+                        <div data-i18n="Referensi">Referensi</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="kode-etik-insinyur-pengertian.html" class="menu-link">
+                        <div data-i18n="Pengertian">Pengertian</div>
+                      </a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="menu-item">
                   <a href="kualifikasi-profesional.html" class="menu-link">
@@ -88,9 +127,31 @@
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="publikasi-karyatulis.html" class="menu-link">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
                     <div data-i18n="Publikasi">Publikasi</div>
                   </a>
+                  <ul class="menu-sub ps-2">
+                    <li class="menu-item">
+                      <a href="publikasi-karyatulis.html" class="menu-link">
+                        <div data-i18n="Karya Tulis">Karya Tulis</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="publikasi-makalah.html" class="menu-link">
+                        <div data-i18n="Makalah/ Tulisan">Makalah/ Tulisan</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="publikasi-seminar.html" class="menu-link">
+                        <div data-i18n="Seminar/ Lokakarya">Seminar/ Lokakarya</div>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="publikasi-temuan.html" class="menu-link">
+                        <div data-i18n="Karya Temuan">Karya Temuan</div>
+                      </a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="menu-item">
                   <a href="bahasa.html" class="menu-link">
@@ -226,9 +287,9 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="card mb-4">
-                    <h5 class="card-header">Data Pencapaian</h5>
-                    <div class="card-body pb-3">
-                      <form id="formAccountSettings" method="POST" onsubmit="return false">
+                    <form id="formAccountSettings" method="POST" onsubmit="return false">
+                      <h5 class="card-header">Data Pencapaian</h5>
+                      <div class="card-body pb-3">
                         <div class="row">
                           <div class="mb-3 col-md-6">
                             <label class="form-label" for="jenis-organisasi">Jenis Organisasi</label>
@@ -314,11 +375,9 @@
                             <textarea name="aktivitas" id="aktivitas" class="form-control" placeholder="Aktivitas Dalam Organisasi"></textarea>
                           </div>
                         </div>
-                      </form>
-                    </div>
-                    <hr class="my-0" />
-                    <div class="card-body">
-                      <form id="formAccountSettings" method="POST" onsubmit="return false">
+                      </div>
+                      <hr class="my-0" />
+                      <div class="card-body">
                         <div class="row pb-2">
                           <div class="col-md mb-4 mb-md-0">
                             <h5>Pilih Bakuan Kompetensi</h5>
@@ -457,13 +516,17 @@
                             </div>
                           </div>
                         </div>
-
-                        <div class="mt-4">
-                          <a href="data-pribadi-organisasi.html" class="btn btn-primary me-2 text-white">Simpan</a>
-                          <button type="reset" class="btn btn-outline-secondary">Batal</button>
+                        <div class="mt-4 d-flex justify-content-between">
+                          <div>
+                            <a href="data-pribadi-organisasi.html" class="btn btn-secondary">Kembali</a>
+                          </div>
+                          <div>
+                            <button type="reset" class="btn btn-outline-primary me-2">Reset</button>
+                            <a href="data-pribadi-organisasi.html" class="btn btn-primary text-white">Simpan</a>
+                          </div>
                         </div>
-                      </form>
-                    </div>
+                      </div>
+                    </form>
                     <!-- /Account -->
                   </div>
                 </div>
