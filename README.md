@@ -1,6 +1,6 @@
 # PPI UNSRI Website
 
-# Mahasiswa
+## Mahasiswa
 
 [Data FAIP Pencapaian Tidak Tersedia](https://sriwijaya-techno.github.io/ppiUnsri/html/unavailable/index.html)
 [Data FAIP Pencapaian Tersedia](https://sriwijaya-techno.github.io/ppiUnsri/html/index.html)
